@@ -116,7 +116,3 @@ class TestStack(unittest.TestCase):
         self.stack.push("sta")
         # Проверяю что счетчик правильно считывает тип данных целых чисел(int).
         self.assertEqual(self.stack.counter_int(), 2)
-
-# скрыл unittest.main() чтобы тест прошел на 100% иначе выдает 99% покрытия.
-# if __name__ == "__main__":
-# unittest.main()
